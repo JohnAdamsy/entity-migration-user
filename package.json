@@ -1,0 +1,21 @@
+{
+  "name": "entity-migration-user",
+  "version": "1.0.0",
+  "description": "MigrationUser Model and Dal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JohnAdamsy/entity-migration-user.git"
+  },
+  "author": "J.O.A <adams.opiyo@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chance": "^1.0.13",
+    "co": "^4.6.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.0"
+  }
+}
