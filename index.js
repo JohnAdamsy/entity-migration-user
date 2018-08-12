@@ -57,7 +57,7 @@ module.exports = (sequelize, DataTypes)=> {
     tableName: 'T_Migration_Users',
 
     hooks: {
-      beforeCreate: (instance, options) => {
+      beforeValidate: (instance, options) => {
 
         // Use GUID to generate code
         let code = (chance.guid()).split('-')
